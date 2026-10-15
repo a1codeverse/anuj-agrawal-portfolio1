@@ -63,7 +63,7 @@
 
   // Filter secondary project concepts.
   const filterButtons = $$('.filter-btn');
-  const smallProjectCards = $$('.small-project');
+  const smallProjectCards = $$('.other-project-grid .project-card');
   filterButtons.forEach(button => button.addEventListener('click', () => {
     const filter = button.dataset.filter || 'all';
     filterButtons.forEach(item => {
